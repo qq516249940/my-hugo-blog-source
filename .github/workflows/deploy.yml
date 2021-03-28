@@ -19,7 +19,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: rm -rf ./public && pwd && tree && hugo && ls public
+        run: rm -rf ./public && pwd && tree && hugo --minify && ls public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
