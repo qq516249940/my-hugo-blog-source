@@ -19,7 +19,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: tree && hugo
+        run: pwd && tree && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
