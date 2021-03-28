@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://516249940python.github.io/"
 languageCode = "zh-cn"
 title = "禅剑一如"
+theme = "hyde"
+
+[[menu.main]]
+  name = "post"
+  weight = 60
+  identifier = "post"
+  url = "/post/"
